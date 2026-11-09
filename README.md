@@ -86,6 +86,10 @@ For the full list of `BLOGLITE_` environment variables, see [bloglite/src/lib.rs
 Regarding the health check, Docker Compose does not restart containers when it fails.
 To make that happen, you can write your own CRON job script to check for failures, or use [autoheal](https://github.com/willfarrell/docker-autoheal).
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Bloglite/)
+
 ## Syndication
 
 To share a post, you can either get the URL from the navigation bar or you can copy the longer link that is available below each post.
